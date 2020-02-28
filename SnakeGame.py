@@ -1,4 +1,4 @@
-# Snake Game!
+# Snake Game using Python
 
 import pygame, sys, random, time
 
@@ -27,7 +27,6 @@ fpsController = pygame.time.Clock()
 snakePos = [100,50] #holds coordinates of the snake
 snakeBody = [[100,50],[90,50],[80,50]]
 
-#Food Position
 foodPos = [random.randrange(1,72)*10,random.randrange(1,46)*10]
 foodSpawn = True
 
@@ -62,7 +61,7 @@ def showScore(choice=1):
     playSurface.blit(Ssurf,Srect)
     
     
-#Real Fun Began Here!!
+#Real Fun Begins Here!!
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
