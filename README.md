@@ -1,4 +1,4 @@
-# snake-game
+
 Snake Game
 This is a simple snake game written in python. 
 Snake gets bigger when he eats food and 1 score is added. 
